@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.LoginController">
+    <children>
+        <Button fx:id="button" layoutX="202.0" layoutY="148.0" onAction="#loginButton" text="Login">
+         <font>
+            <Font name="Yu Mincho Regular" size="20.0" />
+         </font></Button>
+        <Label fx:id="prompt" alignment="CENTER" contentDisplay="CENTER" layoutX="19.0" layoutY="37.0" minHeight="16" minWidth="69" prefHeight="29.0" prefWidth="290.0" scaleShape="false" text="Please enter your Username and Password" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Yu Mincho Light" size="13.0" />
+         </font></Label>
+      <TextField fx:id="Username" alignment="CENTER" layoutX="63.0" layoutY="71.0" promptText="Username">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font></TextField>
+      <Text layoutX="104.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Virtual Bank">
+         <font>
+            <Font name="Yu Mincho Demibold" size="20.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="Password" alignment="CENTER" layoutX="63.0" layoutY="109.0" promptText="Password">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font>
+      </PasswordField>
+      <ChoiceBox fx:id="Menu" layoutX="29.0" layoutY="152.0" prefWidth="150.0" />
+    </children>
+</AnchorPane>

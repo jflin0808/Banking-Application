@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="220.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.CustomerController">
+   <children>
+      <Text layoutX="108.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer">
+         <font>
+            <Font name="Yu Mincho Demibold" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="7.0" layoutY="7.0" mnemonicParsing="false" onAction="#logoutButton" prefHeight="31.0" prefWidth="72.0" text="Logout">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="68.0" layoutY="141.0" mnemonicParsing="false" onAction="#depositButton" text="Deposit">
+         <font>
+            <Font name="Yu Mincho Light" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="68.0" layoutY="176.0" mnemonicParsing="false" onAction="#balanceButton" text="Balance">
+         <font>
+            <Font name="Yu Mincho Light" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="171.0" layoutY="141.0" mnemonicParsing="false" onAction="#withdrawButton" text="Withdraw">
+         <font>
+            <Font name="Yu Mincho Light" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="174.0" layoutY="176.0" mnemonicParsing="false" onAction="#purchaseButton" text="Purchase">
+         <font>
+            <Font name="Yu Mincho Light" size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="TOP_LEFT" layoutX="43.0" layoutY="100.0" prefHeight="21.0" prefWidth="95.0" text="Current Tier:">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font></Label>
+      <TextField fx:id="Amount" alignment="CENTER" layoutX="67.0" layoutY="48.0" promptText="Please enter an amount" />
+      <Label layoutX="24.0" layoutY="79.0" prefHeight="21.0" prefWidth="119.0" text="Current Balance:">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font></Label>
+      <Label fx:id="Tier" alignment="TOP_LEFT" layoutX="138.0" layoutY="100.0" prefHeight="21.0" prefWidth="105.0">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Balance" alignment="TOP_LEFT" layoutX="143.0" layoutY="79.0" prefHeight="21.0" prefWidth="95.0">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

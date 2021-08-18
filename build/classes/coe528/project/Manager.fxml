@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="242.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.ManagerController">
+   <children>
+      <Text layoutX="112.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manager">
+         <font>
+            <Font name="Yu Mincho Demibold" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="32.0" layoutY="193.0" mnemonicParsing="false" onAction="#addCustomerButton" text="Add Customer">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="178.0" layoutY="193.0" mnemonicParsing="false" onAction="#deleteCustomerButton" text="Delete Customer">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="8.0" layoutY="6.0" mnemonicParsing="false" onAction="#logoutButton" text="Logout">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="Username" alignment="CENTER" layoutX="62.0" layoutY="86.0" promptText="Username">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Password" alignment="CENTER" layoutX="62.0" layoutY="121.0" promptText="Password">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Amount" alignment="CENTER" layoutX="67.0" layoutY="155.0" prefHeight="0.0" prefWidth="187.0" promptText="Starting Amount">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font>
+      </TextField>
+      <Label fx:id="prompt" alignment="CENTER" contentDisplay="CENTER" layoutX="47.0" layoutY="36.0" prefHeight="48.0" prefWidth="228.0" text="Please enter username, password and amount" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Yu Mincho Regular" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
